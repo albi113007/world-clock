@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock with Themes & Timezones</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- MAIN CONTAINER -->
+    <div class="container">
+        
+        <!-- HEADER / CONTROLS SECTION -->
+        <div class="controls">
+            
+            <!-- Theme Toggle Button -->
+            <button id="themeBtn">🌙 Dark Mode</button>
+            
+            <!-- Timezone Dropdown -->
+            <select id="timezoneSelect">
+                <option value="UTC">UTC</option>
+                <option value="Asia/Kolkata">India (IST)</option>
+                <option value="America/New_York">USA (EST)</option>
+                <option value="Europe/London">UK (GMT)</option>
+            </select>
+            
+        </div>
+
+        <!-- CLOCK DISPLAY SECTION -->
+        <div class="clockDisplay" id="clockDisplay">
+            00:00:00
+        </div>
+
+        <!-- CLOCK DESIGN OPTIONS -->
+        <div class="designOptions">
+            <button class="designBtn" data-design="digital">Digital</button>
+            <button class="designBtn" data-design="analog">Analog</button>
+            <button class="designBtn" data-design="binary">Binary</button>
+        </div>
+
+    </div>
+
+    <script src="script.js" ></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
